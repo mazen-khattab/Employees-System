@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootStrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">EMS2.0</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="links">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./employees.html">Employees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Jobs.html">Jobs</a>
+                    </li>
+                </ul>
+                <form class="d-flex gap-3" role="search" action="./index.html">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <button type="button" class="btn btn-success">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    <div class="vr"></div>
+
+                    <button type="submit" class="btn btn-warning">
+                        <i class="fa-solid fa-power-off"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-3 mb-3">
+                <div class="card text-bg-primary text-center">
+                    <div class="card-header">
+                        <p class="m-0">Employees List</p>
+                    </div>
+
+                    <div class="card-body">
+                        <h1 class="m-0 p-3">254+</h1>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="./employees.html" class="text-decoration-none text-white d-block">View all
+                            Employees</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-bg-primary text-center">
+                    <div class="card-header">
+                        <p class="m-0">Jobs List</p>
+                    </div>
+
+                    <div class="card-body">
+                        <h1 class="m-0 p-3">25+</h1>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="jobs.html" class="text-decoration-none text-white d-block">View all Jobs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootStrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
